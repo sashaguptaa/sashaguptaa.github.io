@@ -1,0 +1,116 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 100; 
+  /*^^ save for AFTER font */
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  color:whitesmoke;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: black;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+header {
+  background: aquamarine;
+  padding: 20px;
+  text-align: center; 
+}
+
+
+footer {
+  font-weight:300;
+  background: rgb(205, 247, 233);
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  /* position: absolute; */
+  display: block;
+  text-transform: uppercase;
+}
+
+section {
+  text-align:center;
+}
+
+.rickRoll {
+  text-align: center;
+  font-size: 16px;
+}
+
+.rickRoll:hover {
+  color: red;
+}
+
+.bcaPic {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.bcaPic:hover {
+  box-shadow: 0 0 4px 4px rgba(0, 140, 186, 0.5);
+  opacity: 50%;
+}
+
+.helloHeader {
+  color: rgb(118, 223, 188);
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.helloHeader:hover {
+  letter-spacing:.1em;
+}
+
+.meeting {
+  color: rgb(137, 207, 207); 
+}
+
+#click {
+  text-decoration: underline;
+  padding: 15px;
+  color: turquoise; 
+}
+
+#email {
+  margin-right: 5%;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+
+/* #note {
+  font-family: 'Rock Salt', cursive;
+  font-size:.5em;
+} */
+
